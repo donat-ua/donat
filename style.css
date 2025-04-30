@@ -1,0 +1,73 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('ukraine_flag_bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #222;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(0, 91, 187, 0.8);
+    color: white;
+    padding: 1em;
+}
+
+main {
+    padding: 2em;
+    background-color: transparent;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 12px;
+}
+
+.wallet {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 1em 0;
+}
+button {
+    padding: 0.7em 1.5em;
+    font-size: 1em;
+    background-color: #FFD500;
+    border: none;
+    cursor: pointer;
+}
+.uses ul {
+    list-style: none;
+    padding: 0;
+}
+.uses li {
+    margin: 0.5em 0;
+    font-size: 1.2em;
+}
+footer {
+    background-color: transparent;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.media {
+    margin-top: 3em;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+.gallery img {
+    width: 280px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.videos video {
+    margin-top: 1em;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
